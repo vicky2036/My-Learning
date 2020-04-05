@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="36" passed="33">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG" duration-ms="126" started-at="2020-01-25T09:26:49Z" finished-at="2020-01-25T09:26:49Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="basic_1.run2()[pri:0, instance:test.basic_1@5d5eef3d]" name="run2" class="test.basic_1"/>
+        <method signature="basic_2.run2()[pri:0, instance:test.basic_2@56f4468b]" name="run2" class="test.basic_2"/>
+        <method signature="basic_1.run2()[pri:0, instance:test.basic_1@51565ec2]" name="run2" class="test.basic_1"/>
+        <method signature="basic_2.run2()[pri:0, instance:test.basic_2@482f8f11]" name="run2" class="test.basic_2"/>
+        <method signature="basic_1.run2()[pri:0, instance:test.basic_1@4678c730]" name="run2" class="test.basic_1"/>
+        <method signature="basic_2.run2()[pri:0, instance:test.basic_2@6767c1fc]" name="run2" class="test.basic_2"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="test1" duration-ms="115" started-at="2020-01-25T09:26:49Z" finished-at="2020-01-25T09:26:49Z">
+      <class name="test.basic_dataprovider">
+        <test-method status="PASS" signature="datasetter(java.lang.String, java.lang.String)[pri:0, instance:test.basic_dataprovider@3a82f6ef]" name="datasetter" duration-ms="2" started-at="2020-01-25T14:56:49Z" data-provider="getData" finished-at="2020-01-25T14:56:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FirstUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FIrstPwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datasetter -->
+        <test-method status="PASS" signature="datasetter(java.lang.String, java.lang.String)[pri:0, instance:test.basic_dataprovider@3a82f6ef]" name="datasetter" duration-ms="2" started-at="2020-01-25T14:56:49Z" data-provider="getData" finished-at="2020-01-25T14:56:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SecondUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SecondPwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datasetter -->
+        <test-method status="PASS" signature="datasetter(java.lang.String, java.lang.String)[pri:0, instance:test.basic_dataprovider@3a82f6ef]" name="datasetter" duration-ms="2" started-at="2020-01-25T14:56:49Z" data-provider="getData" finished-at="2020-01-25T14:56:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ThirdUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ThirdPwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datasetter -->
+      </class> <!-- test.basic_dataprovider -->
+      <class name="test.basic_3">
+        <test-method status="PASS" signature="mike3()[pri:0, instance:test.basic_3@6cc4c815]" name="mike3" duration-ms="9" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mike3 -->
+        <test-method status="PASS" signature="mike()[pri:0, instance:test.basic_3@6cc4c815]" name="mike" duration-ms="1" started-at="2020-01-25T14:56:49Z" depends-on-methods="test.basic_3.mike3" finished-at="2020-01-25T14:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mike -->
+      </class> <!-- test.basic_3 -->
+      <class name="test.basic_1">
+        <test-method status="PASS" signature="bfmeth()[pri:0, instance:test.basic_1@5d5eef3d]" name="bfmeth" is-config="true" duration-ms="1" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfmeth -->
+        <test-method status="PASS" signature="run()[pri:0, instance:test.basic_1@5d5eef3d]" name="run" duration-ms="10" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="bfmeth()[pri:0, instance:test.basic_1@5d5eef3d]" name="bfmeth" is-config="true" duration-ms="1" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfmeth -->
+        <test-method status="PASS" signature="run2()[pri:0, instance:test.basic_1@5d5eef3d]" name="run2" duration-ms="6" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run2 -->
+        <test-method status="PASS" signature="Last()[pri:0, instance:test.basic_1@5d5eef3d]" name="Last" is-config="true" duration-ms="1" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Last -->
+      </class> <!-- test.basic_1 -->
+      <class name="test.basic_2">
+        <test-method status="PASS" signature="before()[pri:0, instance:test.basic_2@56f4468b]" name="before" is-config="true" duration-ms="0" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="paravalue(java.lang.String)[pri:0, instance:test.basic_2@56f4468b]" name="paravalue" duration-ms="4" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Passing Valu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paravalue -->
+        <test-method status="PASS" signature="run(java.lang.String)[pri:0, instance:test.basic_2@56f4468b]" name="run" duration-ms="3" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Passing Valu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="run2()[pri:0, instance:test.basic_2@56f4468b]" name="run2" duration-ms="3" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run2 -->
+        <test-method status="PASS" signature="run3()[pri:0, instance:test.basic_2@56f4468b]" name="run3" duration-ms="4" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run3 -->
+      </class> <!-- test.basic_2 -->
+    </test> <!-- test1 -->
+    <test name="test2" duration-ms="126" started-at="2020-01-25T09:26:49Z" finished-at="2020-01-25T09:26:49Z">
+      <class name="test.basic_dataprovider">
+        <test-method status="PASS" signature="datasetter(java.lang.String, java.lang.String)[pri:0, instance:test.basic_dataprovider@1b604f19]" name="datasetter" duration-ms="4" started-at="2020-01-25T14:56:49Z" data-provider="getData" finished-at="2020-01-25T14:56:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FirstUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FIrstPwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datasetter -->
+        <test-method status="PASS" signature="datasetter(java.lang.String, java.lang.String)[pri:0, instance:test.basic_dataprovider@1b604f19]" name="datasetter" duration-ms="4" started-at="2020-01-25T14:56:49Z" data-provider="getData" finished-at="2020-01-25T14:56:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SecondUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SecondPwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datasetter -->
+        <test-method status="PASS" signature="datasetter(java.lang.String, java.lang.String)[pri:0, instance:test.basic_dataprovider@1b604f19]" name="datasetter" duration-ms="3" started-at="2020-01-25T14:56:49Z" data-provider="getData" finished-at="2020-01-25T14:56:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ThirdUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ThirdPwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datasetter -->
+      </class> <!-- test.basic_dataprovider -->
+      <class name="test.basic_3">
+        <test-method status="PASS" signature="mike3()[pri:0, instance:test.basic_3@1593948d]" name="mike3" duration-ms="2" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mike3 -->
+        <test-method status="PASS" signature="mike()[pri:0, instance:test.basic_3@1593948d]" name="mike" duration-ms="2" started-at="2020-01-25T14:56:49Z" depends-on-methods="test.basic_3.mike3" finished-at="2020-01-25T14:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mike -->
+      </class> <!-- test.basic_3 -->
+      <class name="test.basic_1">
+        <test-method status="PASS" signature="bfmeth()[pri:0, instance:test.basic_1@51565ec2]" name="bfmeth" is-config="true" duration-ms="1" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfmeth -->
+        <test-method status="PASS" signature="run()[pri:0, instance:test.basic_1@51565ec2]" name="run" duration-ms="12" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="bfmeth()[pri:0, instance:test.basic_1@51565ec2]" name="bfmeth" is-config="true" duration-ms="1" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfmeth -->
+        <test-method status="PASS" signature="run2()[pri:0, instance:test.basic_1@51565ec2]" name="run2" duration-ms="2" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run2 -->
+        <test-method status="PASS" signature="Last()[pri:0, instance:test.basic_1@51565ec2]" name="Last" is-config="true" duration-ms="1" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Last -->
+      </class> <!-- test.basic_1 -->
+      <class name="test.basic_2">
+        <test-method status="PASS" signature="before()[pri:0, instance:test.basic_2@482f8f11]" name="before" is-config="true" duration-ms="1" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="paravalue(java.lang.String)[pri:0, instance:test.basic_2@482f8f11]" name="paravalue" duration-ms="6" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Passing Valu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paravalue -->
+        <test-method status="PASS" signature="run(java.lang.String)[pri:0, instance:test.basic_2@482f8f11]" name="run" duration-ms="9" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Passing Valu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="run2()[pri:0, instance:test.basic_2@482f8f11]" name="run2" duration-ms="4" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run2 -->
+        <test-method status="PASS" signature="run3()[pri:0, instance:test.basic_2@482f8f11]" name="run3" duration-ms="2" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run3 -->
+      </class> <!-- test.basic_2 -->
+    </test> <!-- test2 -->
+    <test name="test3" duration-ms="123" started-at="2020-01-25T09:26:49Z" finished-at="2020-01-25T09:26:49Z">
+      <class name="test.basic_dataprovider">
+        <test-method status="PASS" signature="datasetter(java.lang.String, java.lang.String)[pri:0, instance:test.basic_dataprovider@c038203]" name="datasetter" duration-ms="3" started-at="2020-01-25T14:56:49Z" data-provider="getData" finished-at="2020-01-25T14:56:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FirstUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FIrstPwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datasetter -->
+        <test-method status="PASS" signature="datasetter(java.lang.String, java.lang.String)[pri:0, instance:test.basic_dataprovider@c038203]" name="datasetter" duration-ms="5" started-at="2020-01-25T14:56:49Z" data-provider="getData" finished-at="2020-01-25T14:56:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SecondUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SecondPwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datasetter -->
+        <test-method status="PASS" signature="datasetter(java.lang.String, java.lang.String)[pri:0, instance:test.basic_dataprovider@c038203]" name="datasetter" duration-ms="3" started-at="2020-01-25T14:56:49Z" data-provider="getData" finished-at="2020-01-25T14:56:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ThirdUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ThirdPwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datasetter -->
+      </class> <!-- test.basic_dataprovider -->
+      <class name="test.basic_3">
+        <test-method status="PASS" signature="mike3()[pri:0, instance:test.basic_3@29ee9faa]" name="mike3" duration-ms="2" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mike3 -->
+        <test-method status="PASS" signature="mike()[pri:0, instance:test.basic_3@29ee9faa]" name="mike" duration-ms="2" started-at="2020-01-25T14:56:49Z" depends-on-methods="test.basic_3.mike3" finished-at="2020-01-25T14:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mike -->
+      </class> <!-- test.basic_3 -->
+      <class name="test.basic_1">
+        <test-method status="PASS" signature="sunn()[pri:0, instance:test.basic_1@4678c730]" name="sunn" is-config="true" duration-ms="12" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sunn -->
+        <test-method status="PASS" signature="run()[pri:0, instance:test.basic_1@4678c730]" name="run" duration-ms="15" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="bfmeth()[pri:0, instance:test.basic_1@4678c730]" name="bfmeth" is-config="true" duration-ms="0" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfmeth -->
+        <test-method status="PASS" signature="bfmeth()[pri:0, instance:test.basic_1@4678c730]" name="bfmeth" is-config="true" duration-ms="0" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfmeth -->
+        <test-method status="PASS" signature="run2()[pri:0, instance:test.basic_1@4678c730]" name="run2" duration-ms="6" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run2 -->
+        <test-method status="PASS" signature="Last()[pri:0, instance:test.basic_1@4678c730]" name="Last" is-config="true" duration-ms="0" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Last -->
+      </class> <!-- test.basic_1 -->
+      <class name="test.basic_2">
+        <test-method status="PASS" signature="before()[pri:0, instance:test.basic_2@6767c1fc]" name="before" is-config="true" duration-ms="0" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="paravalue(java.lang.String)[pri:0, instance:test.basic_2@6767c1fc]" name="paravalue" duration-ms="6" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Passing Valu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paravalue -->
+        <test-method status="PASS" signature="run(java.lang.String)[pri:0, instance:test.basic_2@6767c1fc]" name="run" duration-ms="9" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Passing Valu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="run2()[pri:0, instance:test.basic_2@6767c1fc]" name="run2" duration-ms="2" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run2 -->
+        <test-method status="PASS" signature="run3()[pri:0, instance:test.basic_2@6767c1fc]" name="run3" duration-ms="2" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run3 -->
+        <test-method status="PASS" signature="sunn()[pri:0, instance:test.basic_2@6767c1fc]" name="sunn" is-config="true" duration-ms="0" started-at="2020-01-25T14:56:49Z" finished-at="2020-01-25T14:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sunn -->
+      </class> <!-- test.basic_2 -->
+    </test> <!-- test3 -->
+  </suite> <!-- TestNG -->
+</testng-results>

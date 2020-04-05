@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG">
+  <test name="My First Run">
+    <classes>
+      <class name="test.basic_1"/>
+      <class name="test.basic_2"/>
+    </classes>
+  </test> <!-- Test -->
+   
+  <test name = "basicnew">
+  <classes>
+      <class name="test.basic_3">
+     <!--   <methods>
+      <exclude name="mike2"></exclude>
+      </methods>-->
+      <methods>
+      <include name="mike2"></include>
+      </methods>
+      </class>
+    </classes>
+  </test>
+</suite> <!-- Suite -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG" parallel ="tests" thread-count="5"> 
+<parameter name="URL" value="Passing Valu"/>
+  <test name="test1">
+    <packages>
+    <package name="test"></package>
+    </packages>
+  </test>
+  <test name="test2">
+    <packages>
+    <package name="test"></package>
+    </packages>
+  </test>
+  <test name="test3">
+    <packages>
+    <package name="test"></package>
+    </packages>
+  </test>
+</suite> <!-- Suite -->
